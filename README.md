@@ -1,41 +1,37 @@
-# AI Learning Platform
+# AI-Based Personalized Learning & Recommendation Platform
 
-## Project Overview
-The AI Learning Platform is designed to facilitate learning about artificial intelligence through interactive modules and comprehensive resources. It aims to provide users with hands-on experience in various AI concepts and techniques.
+This repository contains the project for an AI-Based Personalized Learning & Recommendation Platform. It includes various components like user profiles, learning content, and recommendation algorithms.
 
-## Features
-- **Interactive Tutorials:** Step-by-step guides on key AI concepts.
-- **Real-world Applications:** Examples of AI applications in various industries.
-- **Community Contributions:** Users can share their own projects and insights.
-- **Resource Library:** A collection of articles, papers, and videos for deeper learning.
+## Project Structure
 
-## Installation
-Clone the repository:
-```bash
-git clone https://github.com/vishnuvardhan081106-eng/ai-learning-platform.git
+- **/docs**: Documentation files.
+- **/src**: Source code files.
+  - **/controllers**: Controller logic for handling requests.
+  - **/models**: Database models.
+  - **/routes**: API route definitions.
+  - **/services**: Services for business logic.
+  - **/utils**: Utility functions and helpers.
+- **/tests**: Unit and integration tests.
+- **/config**: Configuration files.
+- **/data**: Sample data files for testing.
+- **README.md**: Overview of the project.
+- **requirements.txt**: Dependencies for the project.
+
+## Getting Started
+
+To get started, clone the repository and install the required dependencies:
+
 ```
-Navigate into the directory and install dependencies:
-```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate into the directory
 cd ai-learning-platform
-npm install
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ## Usage
-To start the platform, run:
-```bash
-npm start
-```
 
-Visit `http://localhost:3000` in your browser.
-
-## Contributing
-We welcome contributions! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-For questions or feedback, please reach out to [your-email@example.com].
-
----
-This document will be updated as the project evolves and additional features are added.
+Provide instructions on how to use the platform after setup.
